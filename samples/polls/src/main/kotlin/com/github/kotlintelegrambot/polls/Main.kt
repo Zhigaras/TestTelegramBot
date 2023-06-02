@@ -9,7 +9,7 @@ import com.github.kotlintelegrambot.entities.polls.PollType.QUIZ
 
 fun main() {
     bot {
-        token = "BOT_API_TOKEN"
+        token = ""
         dispatch {
             pollAnswer {
                 println("${pollAnswer.user.username} has selected the option ${pollAnswer.optionIds.lastOrNull()} in the poll ${pollAnswer.pollId}")

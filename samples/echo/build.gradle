@@ -6,6 +6,8 @@ repositories {
 
 dependencies {
     implementation project(":telegram")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+    implementation 'io.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.1.0'
 }
 
 jar {
